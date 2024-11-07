@@ -1,0 +1,1706 @@
+{
+    "statement": {
+        "actor": {
+            "name": "NIMI",
+            "mbox": "mailto:example@example.com",
+            "objectType": "Agent"
+        },
+        "verb": {
+            "id": "http://adlnet.gov/expapi/verbs/answered",
+            "display": {
+                "en-US": "answered"
+            }
+        },
+        "object": {
+            "id": "https://moodle.edu.ee/mod/hvp/view.php?id=1823585",
+            "objectType": "Activity",
+            "definition": {
+                "extensions": {
+                    "http://h5p.org/x-api/h5p-local-content-id": 8080
+                },
+                "name": {
+                    "en-US": "2.2.\tMitoosi+tulemuseks+on+identsed+tütarrakud+(3p)"
+                },
+                "interactionType": "compound",
+                "type": "http://adlnet.gov/expapi/activities/cmi.interaction"
+            }
+        },
+        "context": {
+            "contextActivities": {
+                "category": [
+                    {
+                        "id": "http://h5p.org/libraries/H5P.CoursePresentation-1.22",
+                        "objectType": "Activity"
+                    }
+                ]
+            }
+        },
+        "result": {
+            "score": {
+                "min": 0,
+                "max": 39,
+                "raw": 39,
+                "scaled": 1
+            },
+            "completion": true,
+            "success": true,
+            "duration": "PT1493.15S"
+        }
+    },
+    "children": [
+        {
+            "statement": {
+                "actor": {
+                    "name": "NIMI",
+                    "mbox": "mailto:example@example.com",
+                    "objectType": "Agent"
+                },
+                "verb": {
+                    "id": "http://adlnet.gov/expapi/verbs/answered",
+                    "display": {
+                        "en-US": "answered"
+                    }
+                },
+                "object": {
+                    "id": "https://moodle.edu.ee/mod/hvp/view.php?id=1823585?subContentId=db175671-7aac-410c-97eb-edee92bdc865",
+                    "objectType": "Activity",
+                    "definition": {
+                        "extensions": {
+                            "http://h5p.org/x-api/h5p-local-content-id": 8080,
+                            "http://h5p.org/x-api/h5p-subContentId": "db175671-7aac-410c-97eb-edee92bdc865"
+                        },
+                        "name": {
+                            "en-US": "Mitoos"
+                        },
+                        "description": {
+                            "en-US": "Märgi+ära+õiged+väited.\n"
+                        },
+                        "type": "http://adlnet.gov/expapi/activities/cmi.interaction",
+                        "interactionType": "choice",
+                        "correctResponsesPattern": [
+                            "6[,]4[,]3"
+                        ],
+                        "choices": [
+                            {
+                                "id": "6",
+                                "description": {
+                                    "en-US": "Rakkude+vananemine+tuleneb+sellest,+et+kromosoomi+otsas+olevad+telomeerid+lühenevad.\n"
+                                }
+                            },
+                            {
+                                "id": "1",
+                                "description": {
+                                    "en-US": "Kasvajarakud+võivad+lõputult+laguneda,+kuna+nende+rakkude+kormosoomide+otstes+ei+ole+telomeere.\n"
+                                }
+                            },
+                            {
+                                "id": "2",
+                                "description": {
+                                    "en-US": "Kui+tüvirakk+jaguneb+mitootiliselt,+siis+nii+tütar-+kui+ka+eellasrakk+spetsialiseerub+uue+ülesande+jaoks.\n"
+                                }
+                            },
+                            {
+                                "id": "4",
+                                "description": {
+                                    "en-US": "Täiskasvanud+inimese+kehas+tekib+igas+sekundis+25+miljonit+uut+rakku.\n"
+                                }
+                            },
+                            {
+                                "id": "5",
+                                "description": {
+                                    "en-US": "Inimese+rakk+võib+lõputult+jaguneda.\n"
+                                }
+                            },
+                            {
+                                "id": "0",
+                                "description": {
+                                    "en-US": "Mitoosi+tulemusel+tekivad+uued+meiootilised+rakud,+mis+on+geneetiliselt+kõik+identsed.\n"
+                                }
+                            },
+                            {
+                                "id": "7",
+                                "description": {
+                                    "en-US": "Kõik+rakud+jagunevad+sama+kiiresti+ja+sama+arv+kordi.\n"
+                                }
+                            },
+                            {
+                                "id": "3",
+                                "description": {
+                                    "en-US": "Mitoosi+tulemusel+jagunevad+rakud+on+geneetiliselt+identsed.\n"
+                                }
+                            }
+                        ]
+                    }
+                },
+                "context": {
+                    "contextActivities": {
+                        "parent": [
+                            {
+                                "id": "https://moodle.edu.ee/mod/hvp/view.php?id=1823585",
+                                "objectType": "Activity"
+                            }
+                        ],
+                        "category": [
+                            {
+                                "id": "http://h5p.org/libraries/H5P.MultiChoice-1.14",
+                                "objectType": "Activity"
+                            }
+                        ]
+                    }
+                },
+                "result": {
+                    "score": {
+                        "min": 0,
+                        "max": 3,
+                        "raw": 3,
+                        "scaled": 1
+                    },
+                    "completion": true,
+                    "success": true,
+                    "duration": "PT1491.42S",
+                    "response": "4[,]3[,]6"
+                }
+            }
+        },
+        {
+            "statement": {
+                "actor": {
+                    "name": "NIMI",
+                    "mbox": "mailto:example@example.com",
+                    "objectType": "Agent"
+                },
+                "verb": {
+                    "id": "http://adlnet.gov/expapi/verbs/answered",
+                    "display": {
+                        "en-US": "answered"
+                    }
+                },
+                "object": {
+                    "id": "https://moodle.edu.ee/mod/hvp/view.php?id=1823585?subContentId=47233afc-310d-4642-9458-005b829df5bd",
+                    "objectType": "Activity",
+                    "definition": {
+                        "extensions": {
+                            "http://h5p.org/x-api/h5p-local-content-id": 8080,
+                            "http://h5p.org/x-api/h5p-subContentId": "47233afc-310d-4642-9458-005b829df5bd"
+                        },
+                        "name": {
+                            "en-US": "Kontrollitud+rakkude+jagunemine"
+                        },
+                        "description": {
+                            "en-US": "Miks+peab+rakkude+jagunemine+alluma+rangele+kontrollile?\n"
+                        },
+                        "type": "http://adlnet.gov/expapi/activities/cmi.interaction",
+                        "interactionType": "choice",
+                        "correctResponsesPattern": [
+                            "3[,]2[,]1"
+                        ],
+                        "choices": [
+                            {
+                                "id": "3",
+                                "description": {
+                                    "en-US": "Et+rakud+ei+saaks+jaguneda+enne+DNA+kahekordistumist.\n"
+                                }
+                            },
+                            {
+                                "id": "0",
+                                "description": {
+                                    "en-US": "Et+haavad+saaksid+paraneda.\n"
+                                }
+                            },
+                            {
+                                "id": "2",
+                                "description": {
+                                    "en-US": "Et+piirata+mutatsioonide+levikut.\n"
+                                }
+                            },
+                            {
+                                "id": "1",
+                                "description": {
+                                    "en-US": "Et+vältida+vähkkasvajaid.\n"
+                                }
+                            }
+                        ]
+                    }
+                },
+                "context": {
+                    "contextActivities": {
+                        "parent": [
+                            {
+                                "id": "https://moodle.edu.ee/mod/hvp/view.php?id=1823585",
+                                "objectType": "Activity"
+                            }
+                        ],
+                        "category": [
+                            {
+                                "id": "http://h5p.org/libraries/H5P.MultiChoice-1.14",
+                                "objectType": "Activity"
+                            }
+                        ]
+                    }
+                },
+                "result": {
+                    "score": {
+                        "min": 0,
+                        "max": 3,
+                        "raw": 3,
+                        "scaled": 1
+                    },
+                    "completion": true,
+                    "success": true,
+                    "duration": "PT1396.72S",
+                    "response": "3[,]2[,]1"
+                }
+            }
+        },
+        {
+            "statement": {
+                "actor": {
+                    "name": "NIMI",
+                    "mbox": "mailto:example@example.com",
+                    "objectType": "Agent"
+                },
+                "verb": {
+                    "id": "http://adlnet.gov/expapi/verbs/answered",
+                    "display": {
+                        "en-US": "answered"
+                    }
+                },
+                "object": {
+                    "id": "https://moodle.edu.ee/mod/hvp/view.php?id=1823585?subContentId=d6dc6504-2ad4-42c6-bc94-6646bd55de24",
+                    "objectType": "Activity",
+                    "definition": {
+                        "extensions": {
+                            "http://h5p.org/x-api/h5p-local-content-id": 8080,
+                            "http://h5p.org/x-api/h5p-subContentId": "d6dc6504-2ad4-42c6-bc94-6646bd55de24"
+                        },
+                        "name": {
+                            "en-US": "Rakkude+jagunemise+kontrollimine"
+                        },
+                        "description": {
+                            "en-US": "Märgi+ära+õiged+väited.\n"
+                        },
+                        "type": "http://adlnet.gov/expapi/activities/cmi.interaction",
+                        "interactionType": "choice",
+                        "correctResponsesPattern": [
+                            "5[,]4[,]1[,]2"
+                        ],
+                        "choices": [
+                            {
+                                "id": "5",
+                                "description": {
+                                    "en-US": "Teatud+hormoonid+ja+kasvufaktorid+saavad+mõjutada+rakujagunemist.\n"
+                                }
+                            },
+                            {
+                                "id": "4",
+                                "description": {
+                                    "en-US": "Rakujagunemine+ei+saa+liikuda+uude+etappi+enne,+kui+eelmine+etapp+ei+ole+jõudnud+kindlasse+kontrollpunkti.\n"
+                                }
+                            },
+                            {
+                                "id": "3",
+                                "description": {
+                                    "en-US": "Rakujagunemist+kontrollivad+ainult+rakuvälised+tegurid.\n"
+                                }
+                            },
+                            {
+                                "id": "0",
+                                "description": {
+                                    "en-US": "Nii+looma-+kui+ka+taimerakkudes+toimub+rakujagunemine+täpselt+ühtemoodi.\n"
+                                }
+                            },
+                            {
+                                "id": "1",
+                                "description": {
+                                    "en-US": "Rakujagunemine+on+rangelt+kontrollitud+protsess,+et+tekiks+võimalikult+vähe+mutatsioone.\n"
+                                }
+                            },
+                            {
+                                "id": "6",
+                                "description": {
+                                    "en-US": "Mitoos+koosneb+viiest+etapist:+eelfaas,+profaas,+metafaas,+anafaas+ja+telofaas.\n"
+                                }
+                            },
+                            {
+                                "id": "2",
+                                "description": {
+                                    "en-US": "Mitoosi+tulemusel+tekivad+eellasrakuga+geneetiliselt+identsed+tütarrakud.\n"
+                                }
+                            }
+                        ]
+                    }
+                },
+                "context": {
+                    "contextActivities": {
+                        "parent": [
+                            {
+                                "id": "https://moodle.edu.ee/mod/hvp/view.php?id=1823585",
+                                "objectType": "Activity"
+                            }
+                        ],
+                        "category": [
+                            {
+                                "id": "http://h5p.org/libraries/H5P.MultiChoice-1.14",
+                                "objectType": "Activity"
+                            }
+                        ]
+                    }
+                },
+                "result": {
+                    "score": {
+                        "min": 0,
+                        "max": 4,
+                        "raw": 4,
+                        "scaled": 1
+                    },
+                    "completion": true,
+                    "success": true,
+                    "duration": "PT1386.18S",
+                    "response": "2[,]1[,]4[,]5"
+                }
+            }
+        },
+        {
+            "statement": {
+                "actor": {
+                    "name": "NIMI",
+                    "mbox": "mailto:example@example.com",
+                    "objectType": "Agent"
+                },
+                "verb": {
+                    "id": "http://adlnet.gov/expapi/verbs/answered",
+                    "display": {
+                        "en-US": "answered"
+                    }
+                },
+                "object": {
+                    "id": "https://moodle.edu.ee/mod/hvp/view.php?id=1823585?subContentId=741624e0-5f33-45f7-ab41-955b4d1c17a2",
+                    "objectType": "Activity",
+                    "definition": {
+                        "extensions": {
+                            "http://h5p.org/x-api/h5p-local-content-id": 8080,
+                            "http://h5p.org/x-api/h5p-subContentId": "741624e0-5f33-45f7-ab41-955b4d1c17a2"
+                        },
+                        "name": {
+                            "en-US": "Mitoosi+etappide+toimumise+järjekord"
+                        },
+                        "interactionType": "fill-in",
+                        "type": "http://adlnet.gov/expapi/activities/cmi.interaction",
+                        "description": {
+                            "en-US": "<p>Järjesta+mitoosi+etapid+ülalt+alla,+alustades+ajaliselt+esimesest.</p>\n<br/>__________<br/>__________<br/>__________<br/>__________"
+                        },
+                        "correctResponsesPattern": [
+                            "Profaas[,]Metafaas[,]Anafaas[,]Telofaas"
+                        ]
+                    }
+                },
+                "context": {
+                    "contextActivities": {
+                        "parent": [
+                            {
+                                "id": "https://moodle.edu.ee/mod/hvp/view.php?id=1823585",
+                                "objectType": "Activity"
+                            }
+                        ],
+                        "category": [
+                            {
+                                "id": "http://h5p.org/libraries/H5P.DragText-1.8",
+                                "objectType": "Activity"
+                            }
+                        ]
+                    }
+                },
+                "result": {
+                    "response": "Profaas[,]Metafaas[,]Anafaas[,]Telofaas",
+                    "score": {
+                        "min": 0,
+                        "raw": 4,
+                        "max": 4,
+                        "scaled": 1
+                    },
+                    "duration": "PT1792.99S",
+                    "completion": true
+                }
+            }
+        },
+        {
+            "statement": {
+                "actor": {
+                    "name": "NIMI",
+                    "mbox": "mailto:example@example.com",
+                    "objectType": "Agent"
+                },
+                "verb": {
+                    "id": "http://adlnet.gov/expapi/verbs/answered",
+                    "display": {
+                        "en-US": "answered"
+                    }
+                },
+                "context": {
+                    "contextActivities": {
+                        "parent": [
+                            {
+                                "id": "https://moodle.edu.ee/mod/hvp/view.php?id=1823585",
+                                "objectType": "Activity"
+                            }
+                        ]
+                    }
+                },
+                "object": {
+                    "id": "https://moodle.edu.ee/mod/hvp/view.php?id=1823585?subContentId=1ed817c4-7835-4c72-aae0-56331ba9e646",
+                    "objectType": "Activity",
+                    "definition": {
+                        "interactionType": "compound",
+                        "type": "http://adlnet.gov/expapi/activities/cmi.interaction",
+                        "extensions": {
+                            "http://h5p.org/x-api/h5p-local-content-id": 8080,
+                            "http://h5p.org/x-api/h5p-subContentId": "1ed817c4-7835-4c72-aae0-56331ba9e646"
+                        }
+                    }
+                },
+                "result": {
+                    "duration": "PT91.47999999999999S",
+                    "score": {
+                        "raw": 13,
+                        "min": 0,
+                        "max": 13,
+                        "scaled": 1
+                    }
+                }
+            },
+            "children": [
+                {
+                    "statement": {
+                        "actor": {
+                            "name": "NIMI",
+                            "mbox": "mailto:example@example.com",
+                            "objectType": "Agent"
+                        },
+                        "verb": {
+                            "id": "http://adlnet.gov/expapi/verbs/answered",
+                            "display": {
+                                "en-US": "answered"
+                            }
+                        },
+                        "context": {
+                            "contextActivities": {
+                                "parent": [
+                                    {
+                                        "id": "https://moodle.edu.ee/mod/hvp/view.php?id=1823585?subContentId=1ed817c4-7835-4c72-aae0-56331ba9e646",
+                                        "objectType": "Activity"
+                                    }
+                                ]
+                            }
+                        },
+                        "object": {
+                            "id": "https://moodle.edu.ee/mod/hvp/view.php?id=1823585?subContentId=e8123bbe-f5f9-487e-a5a9-dd6df0e29cc4",
+                            "objectType": "Activity",
+                            "definition": {
+                                "description": {
+                                    "en-US": "DNA+pakitakse+kokku+-"
+                                },
+                                "interactionType": "choice",
+                                "correctResponsesPattern": [
+                                    "0"
+                                ],
+                                "type": "http://adlnet.gov/expapi/activities/cmi.interaction",
+                                "choices": [
+                                    {
+                                        "id": "0",
+                                        "description": {
+                                            "en-US": "profaas"
+                                        }
+                                    },
+                                    {
+                                        "id": "1",
+                                        "description": {
+                                            "en-US": "metafaas"
+                                        }
+                                    },
+                                    {
+                                        "id": "2",
+                                        "description": {
+                                            "en-US": "anafaas"
+                                        }
+                                    },
+                                    {
+                                        "id": "3",
+                                        "description": {
+                                            "en-US": "telofaas"
+                                        }
+                                    }
+                                ],
+                                "extensions": {
+                                    "http://h5p.org/x-api/h5p-local-content-id": 8080,
+                                    "http://h5p.org/x-api/h5p-subContentId": "e8123bbe-f5f9-487e-a5a9-dd6df0e29cc4"
+                                }
+                            }
+                        },
+                        "result": {
+                            "response": "0",
+                            "completion": true,
+                            "duration": "PT3.39S",
+                            "score": {
+                                "raw": 1,
+                                "min": 0,
+                                "max": 1,
+                                "scaled": 1
+                            }
+                        }
+                    }
+                },
+                {
+                    "statement": {
+                        "actor": {
+                            "name": "NIMI",
+                            "mbox": "mailto:example@example.com",
+                            "objectType": "Agent"
+                        },
+                        "verb": {
+                            "id": "http://adlnet.gov/expapi/verbs/answered",
+                            "display": {
+                                "en-US": "answered"
+                            }
+                        },
+                        "context": {
+                            "contextActivities": {
+                                "parent": [
+                                    {
+                                        "id": "https://moodle.edu.ee/mod/hvp/view.php?id=1823585?subContentId=1ed817c4-7835-4c72-aae0-56331ba9e646",
+                                        "objectType": "Activity"
+                                    }
+                                ]
+                            }
+                        },
+                        "object": {
+                            "id": "https://moodle.edu.ee/mod/hvp/view.php?id=1823585?subContentId=bf386fd7-31a1-487d-bc69-4a2b800c7d26",
+                            "objectType": "Activity",
+                            "definition": {
+                                "description": {
+                                    "en-US": "Tsentrosoomid+liiguvad+vastassuunas+ja+nende+vahele+tekivad+kääviniidid+-"
+                                },
+                                "interactionType": "choice",
+                                "correctResponsesPattern": [
+                                    "0"
+                                ],
+                                "type": "http://adlnet.gov/expapi/activities/cmi.interaction",
+                                "choices": [
+                                    {
+                                        "id": "0",
+                                        "description": {
+                                            "en-US": "profaas"
+                                        }
+                                    },
+                                    {
+                                        "id": "1",
+                                        "description": {
+                                            "en-US": "metafaas"
+                                        }
+                                    },
+                                    {
+                                        "id": "2",
+                                        "description": {
+                                            "en-US": "anafaas"
+                                        }
+                                    },
+                                    {
+                                        "id": "3",
+                                        "description": {
+                                            "en-US": "telofaas"
+                                        }
+                                    }
+                                ],
+                                "extensions": {
+                                    "http://h5p.org/x-api/h5p-local-content-id": 8080,
+                                    "http://h5p.org/x-api/h5p-subContentId": "bf386fd7-31a1-487d-bc69-4a2b800c7d26"
+                                }
+                            }
+                        },
+                        "result": {
+                            "response": "0",
+                            "completion": true,
+                            "success": true,
+                            "duration": "PT3.09S",
+                            "score": {
+                                "raw": 1,
+                                "min": 0,
+                                "max": 1,
+                                "scaled": 1
+                            }
+                        }
+                    }
+                },
+                {
+                    "statement": {
+                        "actor": {
+                            "name": "NIMI",
+                            "mbox": "mailto:example@example.com",
+                            "objectType": "Agent"
+                        },
+                        "verb": {
+                            "id": "http://adlnet.gov/expapi/verbs/answered",
+                            "display": {
+                                "en-US": "answered"
+                            }
+                        },
+                        "context": {
+                            "contextActivities": {
+                                "parent": [
+                                    {
+                                        "id": "https://moodle.edu.ee/mod/hvp/view.php?id=1823585?subContentId=1ed817c4-7835-4c72-aae0-56331ba9e646",
+                                        "objectType": "Activity"
+                                    }
+                                ]
+                            }
+                        },
+                        "object": {
+                            "id": "https://moodle.edu.ee/mod/hvp/view.php?id=1823585?subContentId=068f5f9b-c5b5-4ab3-8658-30da04c23a87",
+                            "objectType": "Activity",
+                            "definition": {
+                                "description": {
+                                    "en-US": "Tuumamembraan+laguneb+-"
+                                },
+                                "interactionType": "choice",
+                                "correctResponsesPattern": [
+                                    "0"
+                                ],
+                                "type": "http://adlnet.gov/expapi/activities/cmi.interaction",
+                                "choices": [
+                                    {
+                                        "id": "0",
+                                        "description": {
+                                            "en-US": "profaas"
+                                        }
+                                    },
+                                    {
+                                        "id": "1",
+                                        "description": {
+                                            "en-US": "metafaas"
+                                        }
+                                    },
+                                    {
+                                        "id": "2",
+                                        "description": {
+                                            "en-US": "anafaas"
+                                        }
+                                    },
+                                    {
+                                        "id": "3",
+                                        "description": {
+                                            "en-US": "telofaas"
+                                        }
+                                    }
+                                ],
+                                "extensions": {
+                                    "http://h5p.org/x-api/h5p-local-content-id": 8080,
+                                    "http://h5p.org/x-api/h5p-subContentId": "068f5f9b-c5b5-4ab3-8658-30da04c23a87"
+                                }
+                            }
+                        },
+                        "result": {
+                            "response": "0",
+                            "completion": true,
+                            "success": true,
+                            "duration": "PT4.46S",
+                            "score": {
+                                "raw": 1,
+                                "min": 0,
+                                "max": 1,
+                                "scaled": 1
+                            }
+                        }
+                    }
+                },
+                {
+                    "statement": {
+                        "actor": {
+                            "name": "NIMI",
+                            "mbox": "mailto:example@example.com",
+                            "objectType": "Agent"
+                        },
+                        "verb": {
+                            "id": "http://adlnet.gov/expapi/verbs/answered",
+                            "display": {
+                                "en-US": "answered"
+                            }
+                        },
+                        "context": {
+                            "contextActivities": {
+                                "parent": [
+                                    {
+                                        "id": "https://moodle.edu.ee/mod/hvp/view.php?id=1823585?subContentId=1ed817c4-7835-4c72-aae0-56331ba9e646",
+                                        "objectType": "Activity"
+                                    }
+                                ]
+                            }
+                        },
+                        "object": {
+                            "id": "https://moodle.edu.ee/mod/hvp/view.php?id=1823585?subContentId=122dc9d0-8b3c-4b44-8742-f04b181e01d2",
+                            "objectType": "Activity",
+                            "definition": {
+                                "description": {
+                                    "en-US": "Esimene+etapp,+kui+kromatiidid+on+ühendatud+tsentromeeri+kaudu+-"
+                                },
+                                "interactionType": "choice",
+                                "correctResponsesPattern": [
+                                    "0"
+                                ],
+                                "type": "http://adlnet.gov/expapi/activities/cmi.interaction",
+                                "choices": [
+                                    {
+                                        "id": "0",
+                                        "description": {
+                                            "en-US": "profaas"
+                                        }
+                                    },
+                                    {
+                                        "id": "1",
+                                        "description": {
+                                            "en-US": "metafaas"
+                                        }
+                                    },
+                                    {
+                                        "id": "2",
+                                        "description": {
+                                            "en-US": "anafaas"
+                                        }
+                                    },
+                                    {
+                                        "id": "3",
+                                        "description": {
+                                            "en-US": "telofaas"
+                                        }
+                                    }
+                                ],
+                                "extensions": {
+                                    "http://h5p.org/x-api/h5p-local-content-id": 8080,
+                                    "http://h5p.org/x-api/h5p-subContentId": "122dc9d0-8b3c-4b44-8742-f04b181e01d2"
+                                }
+                            }
+                        },
+                        "result": {
+                            "response": "0",
+                            "completion": true,
+                            "success": true,
+                            "duration": "PT2.46S",
+                            "score": {
+                                "raw": 1,
+                                "min": 0,
+                                "max": 1,
+                                "scaled": 1
+                            }
+                        }
+                    }
+                },
+                {
+                    "statement": {
+                        "actor": {
+                            "name": "NIMI",
+                            "mbox": "mailto:example@example.com",
+                            "objectType": "Agent"
+                        },
+                        "verb": {
+                            "id": "http://adlnet.gov/expapi/verbs/answered",
+                            "display": {
+                                "en-US": "answered"
+                            }
+                        },
+                        "context": {
+                            "contextActivities": {
+                                "parent": [
+                                    {
+                                        "id": "https://moodle.edu.ee/mod/hvp/view.php?id=1823585?subContentId=1ed817c4-7835-4c72-aae0-56331ba9e646",
+                                        "objectType": "Activity"
+                                    }
+                                ]
+                            }
+                        },
+                        "object": {
+                            "id": "https://moodle.edu.ee/mod/hvp/view.php?id=1823585?subContentId=36166c9c-c870-4fb4-a3ee-2d54a2e6ca3f",
+                            "objectType": "Activity",
+                            "definition": {
+                                "description": {
+                                    "en-US": "DNA+on+maksimaalselt+kokku+pakitud+-"
+                                },
+                                "interactionType": "choice",
+                                "correctResponsesPattern": [
+                                    "0"
+                                ],
+                                "type": "http://adlnet.gov/expapi/activities/cmi.interaction",
+                                "choices": [
+                                    {
+                                        "id": "0",
+                                        "description": {
+                                            "en-US": "metafaas"
+                                        }
+                                    },
+                                    {
+                                        "id": "1",
+                                        "description": {
+                                            "en-US": "anafaas"
+                                        }
+                                    },
+                                    {
+                                        "id": "2",
+                                        "description": {
+                                            "en-US": "telofaas"
+                                        }
+                                    },
+                                    {
+                                        "id": "3",
+                                        "description": {
+                                            "en-US": "profaas"
+                                        }
+                                    }
+                                ],
+                                "extensions": {
+                                    "http://h5p.org/x-api/h5p-local-content-id": 8080,
+                                    "http://h5p.org/x-api/h5p-subContentId": "36166c9c-c870-4fb4-a3ee-2d54a2e6ca3f"
+                                }
+                            }
+                        },
+                        "result": {
+                            "response": "0",
+                            "completion": true,
+                            "success": true,
+                            "duration": "PT4.28S",
+                            "score": {
+                                "raw": 1,
+                                "min": 0,
+                                "max": 1,
+                                "scaled": 1
+                            }
+                        }
+                    }
+                },
+                {
+                    "statement": {
+                        "actor": {
+                            "name": "NIMI",
+                            "mbox": "mailto:example@example.com",
+                            "objectType": "Agent"
+                        },
+                        "verb": {
+                            "id": "http://adlnet.gov/expapi/verbs/answered",
+                            "display": {
+                                "en-US": "answered"
+                            }
+                        },
+                        "context": {
+                            "contextActivities": {
+                                "parent": [
+                                    {
+                                        "id": "https://moodle.edu.ee/mod/hvp/view.php?id=1823585?subContentId=1ed817c4-7835-4c72-aae0-56331ba9e646",
+                                        "objectType": "Activity"
+                                    }
+                                ]
+                            }
+                        },
+                        "object": {
+                            "id": "https://moodle.edu.ee/mod/hvp/view.php?id=1823585?subContentId=46d927d0-8bbf-40dd-aeec-92afc364d1c0",
+                            "objectType": "Activity",
+                            "definition": {
+                                "description": {
+                                    "en-US": "Kääviniidid+kinnituvad+tsentromeeridele+-"
+                                },
+                                "interactionType": "choice",
+                                "correctResponsesPattern": [
+                                    "0"
+                                ],
+                                "type": "http://adlnet.gov/expapi/activities/cmi.interaction",
+                                "choices": [
+                                    {
+                                        "id": "0",
+                                        "description": {
+                                            "en-US": "metafaas"
+                                        }
+                                    },
+                                    {
+                                        "id": "1",
+                                        "description": {
+                                            "en-US": "anafaas"
+                                        }
+                                    },
+                                    {
+                                        "id": "2",
+                                        "description": {
+                                            "en-US": "telofaas"
+                                        }
+                                    },
+                                    {
+                                        "id": "3",
+                                        "description": {
+                                            "en-US": "profaas"
+                                        }
+                                    }
+                                ],
+                                "extensions": {
+                                    "http://h5p.org/x-api/h5p-local-content-id": 8080,
+                                    "http://h5p.org/x-api/h5p-subContentId": "46d927d0-8bbf-40dd-aeec-92afc364d1c0"
+                                }
+                            }
+                        },
+                        "result": {
+                            "response": "0",
+                            "completion": true,
+                            "success": true,
+                            "duration": "PT18.78S",
+                            "score": {
+                                "raw": 1,
+                                "min": 0,
+                                "max": 1,
+                                "scaled": 1
+                            }
+                        }
+                    }
+                },
+                {
+                    "statement": {
+                        "actor": {
+                            "name": "NIMI",
+                            "mbox": "mailto:example@example.com",
+                            "objectType": "Agent"
+                        },
+                        "verb": {
+                            "id": "http://adlnet.gov/expapi/verbs/answered",
+                            "display": {
+                                "en-US": "answered"
+                            }
+                        },
+                        "context": {
+                            "contextActivities": {
+                                "parent": [
+                                    {
+                                        "id": "https://moodle.edu.ee/mod/hvp/view.php?id=1823585?subContentId=1ed817c4-7835-4c72-aae0-56331ba9e646",
+                                        "objectType": "Activity"
+                                    }
+                                ]
+                            }
+                        },
+                        "object": {
+                            "id": "https://moodle.edu.ee/mod/hvp/view.php?id=1823585?subContentId=30401561-2e5d-46e1-b4a9-a88239398a6d",
+                            "objectType": "Activity",
+                            "definition": {
+                                "description": {
+                                    "en-US": "Kromosoomid+liiguvad+raku+keskele+ühele+tasapinnale+-"
+                                },
+                                "interactionType": "choice",
+                                "correctResponsesPattern": [
+                                    "0"
+                                ],
+                                "type": "http://adlnet.gov/expapi/activities/cmi.interaction",
+                                "choices": [
+                                    {
+                                        "id": "0",
+                                        "description": {
+                                            "en-US": "metafaas"
+                                        }
+                                    },
+                                    {
+                                        "id": "1",
+                                        "description": {
+                                            "en-US": "anafaas"
+                                        }
+                                    },
+                                    {
+                                        "id": "2",
+                                        "description": {
+                                            "en-US": "telofaas"
+                                        }
+                                    },
+                                    {
+                                        "id": "3",
+                                        "description": {
+                                            "en-US": "profaas"
+                                        }
+                                    }
+                                ],
+                                "extensions": {
+                                    "http://h5p.org/x-api/h5p-local-content-id": 8080,
+                                    "http://h5p.org/x-api/h5p-subContentId": "30401561-2e5d-46e1-b4a9-a88239398a6d"
+                                }
+                            }
+                        },
+                        "result": {
+                            "response": "0",
+                            "completion": true,
+                            "success": true,
+                            "duration": "PT12.45S",
+                            "score": {
+                                "raw": 1,
+                                "min": 0,
+                                "max": 1,
+                                "scaled": 1
+                            }
+                        }
+                    }
+                },
+                {
+                    "statement": {
+                        "actor": {
+                            "name": "NIMI",
+                            "mbox": "mailto:example@example.com",
+                            "objectType": "Agent"
+                        },
+                        "verb": {
+                            "id": "http://adlnet.gov/expapi/verbs/answered",
+                            "display": {
+                                "en-US": "answered"
+                            }
+                        },
+                        "context": {
+                            "contextActivities": {
+                                "parent": [
+                                    {
+                                        "id": "https://moodle.edu.ee/mod/hvp/view.php?id=1823585?subContentId=1ed817c4-7835-4c72-aae0-56331ba9e646",
+                                        "objectType": "Activity"
+                                    }
+                                ]
+                            }
+                        },
+                        "object": {
+                            "id": "https://moodle.edu.ee/mod/hvp/view.php?id=1823585?subContentId=fe302df4-af95-4d48-a485-6af3cba56dc7",
+                            "objectType": "Activity",
+                            "definition": {
+                                "description": {
+                                    "en-US": "Kääviniitide+lühenemise+tõttu+eemalduvad+teineteisest+identsed+kromatiidid+-"
+                                },
+                                "interactionType": "choice",
+                                "correctResponsesPattern": [
+                                    "0"
+                                ],
+                                "type": "http://adlnet.gov/expapi/activities/cmi.interaction",
+                                "choices": [
+                                    {
+                                        "id": "0",
+                                        "description": {
+                                            "en-US": "anafaas"
+                                        }
+                                    },
+                                    {
+                                        "id": "1",
+                                        "description": {
+                                            "en-US": "telofaas"
+                                        }
+                                    },
+                                    {
+                                        "id": "2",
+                                        "description": {
+                                            "en-US": "profaas"
+                                        }
+                                    },
+                                    {
+                                        "id": "3",
+                                        "description": {
+                                            "en-US": "metafaas"
+                                        }
+                                    }
+                                ],
+                                "extensions": {
+                                    "http://h5p.org/x-api/h5p-local-content-id": 8080,
+                                    "http://h5p.org/x-api/h5p-subContentId": "fe302df4-af95-4d48-a485-6af3cba56dc7"
+                                }
+                            }
+                        },
+                        "result": {
+                            "response": "0",
+                            "completion": true,
+                            "success": true,
+                            "duration": "PT11.77S",
+                            "score": {
+                                "raw": 1,
+                                "min": 0,
+                                "max": 1,
+                                "scaled": 1
+                            }
+                        }
+                    }
+                },
+                {
+                    "statement": {
+                        "actor": {
+                            "name": "NIMI",
+                            "mbox": "mailto:example@example.com",
+                            "objectType": "Agent"
+                        },
+                        "verb": {
+                            "id": "http://adlnet.gov/expapi/verbs/answered",
+                            "display": {
+                                "en-US": "answered"
+                            }
+                        },
+                        "context": {
+                            "contextActivities": {
+                                "parent": [
+                                    {
+                                        "id": "https://moodle.edu.ee/mod/hvp/view.php?id=1823585?subContentId=1ed817c4-7835-4c72-aae0-56331ba9e646",
+                                        "objectType": "Activity"
+                                    }
+                                ]
+                            }
+                        },
+                        "object": {
+                            "id": "https://moodle.edu.ee/mod/hvp/view.php?id=1823585?subContentId=15fe8e4f-729c-44d0-b181-9695abc696a6",
+                            "objectType": "Activity",
+                            "definition": {
+                                "description": {
+                                    "en-US": "Kromatiidid+jõuavad+raku+erinevatesse+otstesse+-"
+                                },
+                                "interactionType": "choice",
+                                "correctResponsesPattern": [
+                                    "0"
+                                ],
+                                "type": "http://adlnet.gov/expapi/activities/cmi.interaction",
+                                "choices": [
+                                    {
+                                        "id": "0",
+                                        "description": {
+                                            "en-US": "anafaas"
+                                        }
+                                    },
+                                    {
+                                        "id": "1",
+                                        "description": {
+                                            "en-US": "telofaas"
+                                        }
+                                    },
+                                    {
+                                        "id": "2",
+                                        "description": {
+                                            "en-US": "profaas"
+                                        }
+                                    },
+                                    {
+                                        "id": "3",
+                                        "description": {
+                                            "en-US": "metafaas"
+                                        }
+                                    }
+                                ],
+                                "extensions": {
+                                    "http://h5p.org/x-api/h5p-local-content-id": 8080,
+                                    "http://h5p.org/x-api/h5p-subContentId": "15fe8e4f-729c-44d0-b181-9695abc696a6"
+                                }
+                            }
+                        },
+                        "result": {
+                            "response": "0",
+                            "completion": true,
+                            "success": true,
+                            "duration": "PT9.55S",
+                            "score": {
+                                "raw": 1,
+                                "min": 0,
+                                "max": 1,
+                                "scaled": 1
+                            }
+                        }
+                    }
+                },
+                {
+                    "statement": {
+                        "actor": {
+                            "name": "NIMI",
+                            "mbox": "mailto:example@example.com",
+                            "objectType": "Agent"
+                        },
+                        "verb": {
+                            "id": "http://adlnet.gov/expapi/verbs/answered",
+                            "display": {
+                                "en-US": "answered"
+                            }
+                        },
+                        "context": {
+                            "contextActivities": {
+                                "parent": [
+                                    {
+                                        "id": "https://moodle.edu.ee/mod/hvp/view.php?id=1823585?subContentId=1ed817c4-7835-4c72-aae0-56331ba9e646",
+                                        "objectType": "Activity"
+                                    }
+                                ]
+                            }
+                        },
+                        "object": {
+                            "id": "https://moodle.edu.ee/mod/hvp/view.php?id=1823585?subContentId=f1769610-6873-40ef-a669-b19e563693af",
+                            "objectType": "Activity",
+                            "definition": {
+                                "description": {
+                                    "en-US": "Kääviniidid+kaovad+-"
+                                },
+                                "interactionType": "choice",
+                                "correctResponsesPattern": [
+                                    "0"
+                                ],
+                                "type": "http://adlnet.gov/expapi/activities/cmi.interaction",
+                                "choices": [
+                                    {
+                                        "id": "0",
+                                        "description": {
+                                            "en-US": "telofaas"
+                                        }
+                                    },
+                                    {
+                                        "id": "1",
+                                        "description": {
+                                            "en-US": "profaas"
+                                        }
+                                    },
+                                    {
+                                        "id": "2",
+                                        "description": {
+                                            "en-US": "metafaas"
+                                        }
+                                    },
+                                    {
+                                        "id": "3",
+                                        "description": {
+                                            "en-US": "anafaas"
+                                        }
+                                    }
+                                ],
+                                "extensions": {
+                                    "http://h5p.org/x-api/h5p-local-content-id": 8080,
+                                    "http://h5p.org/x-api/h5p-subContentId": "f1769610-6873-40ef-a669-b19e563693af"
+                                }
+                            }
+                        },
+                        "result": {
+                            "response": "0",
+                            "completion": true,
+                            "success": true,
+                            "duration": "PT4.8S",
+                            "score": {
+                                "raw": 1,
+                                "min": 0,
+                                "max": 1,
+                                "scaled": 1
+                            }
+                        }
+                    }
+                },
+                {
+                    "statement": {
+                        "actor": {
+                            "name": "NIMI",
+                            "mbox": "mailto:example@example.com",
+                            "objectType": "Agent"
+                        },
+                        "verb": {
+                            "id": "http://adlnet.gov/expapi/verbs/answered",
+                            "display": {
+                                "en-US": "answered"
+                            }
+                        },
+                        "context": {
+                            "contextActivities": {
+                                "parent": [
+                                    {
+                                        "id": "https://moodle.edu.ee/mod/hvp/view.php?id=1823585?subContentId=1ed817c4-7835-4c72-aae0-56331ba9e646",
+                                        "objectType": "Activity"
+                                    }
+                                ]
+                            }
+                        },
+                        "object": {
+                            "id": "https://moodle.edu.ee/mod/hvp/view.php?id=1823585?subContentId=1dcb3cb4-93aa-4e28-b0fe-94e44c914cfb",
+                            "objectType": "Activity",
+                            "definition": {
+                                "description": {
+                                    "en-US": "Sünteesitakse+tuumamembraan,+DNA+pakitakse+lahti,+tekivad+tuumakesed+-"
+                                },
+                                "interactionType": "choice",
+                                "correctResponsesPattern": [
+                                    "0"
+                                ],
+                                "type": "http://adlnet.gov/expapi/activities/cmi.interaction",
+                                "choices": [
+                                    {
+                                        "id": "0",
+                                        "description": {
+                                            "en-US": "telofaas"
+                                        }
+                                    },
+                                    {
+                                        "id": "1",
+                                        "description": {
+                                            "en-US": "profaas"
+                                        }
+                                    },
+                                    {
+                                        "id": "2",
+                                        "description": {
+                                            "en-US": "metafaas"
+                                        }
+                                    },
+                                    {
+                                        "id": "3",
+                                        "description": {
+                                            "en-US": "anafaas"
+                                        }
+                                    }
+                                ],
+                                "extensions": {
+                                    "http://h5p.org/x-api/h5p-local-content-id": 8080,
+                                    "http://h5p.org/x-api/h5p-subContentId": "1dcb3cb4-93aa-4e28-b0fe-94e44c914cfb"
+                                }
+                            }
+                        },
+                        "result": {
+                            "response": "0",
+                            "completion": true,
+                            "success": true,
+                            "duration": "PT5.85S",
+                            "score": {
+                                "raw": 1,
+                                "min": 0,
+                                "max": 1,
+                                "scaled": 1
+                            }
+                        }
+                    }
+                },
+                {
+                    "statement": {
+                        "actor": {
+                            "name": "NIMI",
+                            "mbox": "mailto:example@example.com",
+                            "objectType": "Agent"
+                        },
+                        "verb": {
+                            "id": "http://adlnet.gov/expapi/verbs/answered",
+                            "display": {
+                                "en-US": "answered"
+                            }
+                        },
+                        "context": {
+                            "contextActivities": {
+                                "parent": [
+                                    {
+                                        "id": "https://moodle.edu.ee/mod/hvp/view.php?id=1823585?subContentId=1ed817c4-7835-4c72-aae0-56331ba9e646",
+                                        "objectType": "Activity"
+                                    }
+                                ]
+                            }
+                        },
+                        "object": {
+                            "id": "https://moodle.edu.ee/mod/hvp/view.php?id=1823585?subContentId=ec5c5909-527d-4992-844c-f7581483b4c8",
+                            "objectType": "Activity",
+                            "definition": {
+                                "description": {
+                                    "en-US": "Kahe+raku+vahele+tekib+uus+rakukest+-"
+                                },
+                                "interactionType": "choice",
+                                "correctResponsesPattern": [
+                                    "0"
+                                ],
+                                "type": "http://adlnet.gov/expapi/activities/cmi.interaction",
+                                "choices": [
+                                    {
+                                        "id": "0",
+                                        "description": {
+                                            "en-US": "telofaas"
+                                        }
+                                    },
+                                    {
+                                        "id": "1",
+                                        "description": {
+                                            "en-US": "profaas"
+                                        }
+                                    },
+                                    {
+                                        "id": "2",
+                                        "description": {
+                                            "en-US": "metafaas"
+                                        }
+                                    },
+                                    {
+                                        "id": "3",
+                                        "description": {
+                                            "en-US": "anafaas"
+                                        }
+                                    }
+                                ],
+                                "extensions": {
+                                    "http://h5p.org/x-api/h5p-local-content-id": 8080,
+                                    "http://h5p.org/x-api/h5p-subContentId": "ec5c5909-527d-4992-844c-f7581483b4c8"
+                                }
+                            }
+                        },
+                        "result": {
+                            "response": "0",
+                            "completion": true,
+                            "success": true,
+                            "duration": "PT5.58S",
+                            "score": {
+                                "raw": 1,
+                                "min": 0,
+                                "max": 1,
+                                "scaled": 1
+                            }
+                        }
+                    }
+                },
+                {
+                    "statement": {
+                        "actor": {
+                            "name": "NIMI",
+                            "mbox": "mailto:example@example.com",
+                            "objectType": "Agent"
+                        },
+                        "verb": {
+                            "id": "http://adlnet.gov/expapi/verbs/answered",
+                            "display": {
+                                "en-US": "answered"
+                            }
+                        },
+                        "context": {
+                            "contextActivities": {
+                                "parent": [
+                                    {
+                                        "id": "https://moodle.edu.ee/mod/hvp/view.php?id=1823585?subContentId=1ed817c4-7835-4c72-aae0-56331ba9e646",
+                                        "objectType": "Activity"
+                                    }
+                                ]
+                            }
+                        },
+                        "object": {
+                            "id": "https://moodle.edu.ee/mod/hvp/view.php?id=1823585?subContentId=153628d6-e188-4e33-bb64-4c0db0dfa07e",
+                            "objectType": "Activity",
+                            "definition": {
+                                "description": {
+                                    "en-US": "On+tekkinud+kaks+identset+rakku+-"
+                                },
+                                "interactionType": "choice",
+                                "correctResponsesPattern": [
+                                    "0"
+                                ],
+                                "type": "http://adlnet.gov/expapi/activities/cmi.interaction",
+                                "choices": [
+                                    {
+                                        "id": "0",
+                                        "description": {
+                                            "en-US": "telofaas"
+                                        }
+                                    },
+                                    {
+                                        "id": "1",
+                                        "description": {
+                                            "en-US": "profaas"
+                                        }
+                                    },
+                                    {
+                                        "id": "2",
+                                        "description": {
+                                            "en-US": "metafaas"
+                                        }
+                                    },
+                                    {
+                                        "id": "3",
+                                        "description": {
+                                            "en-US": "anafaas"
+                                        }
+                                    }
+                                ],
+                                "extensions": {
+                                    "http://h5p.org/x-api/h5p-local-content-id": 8080,
+                                    "http://h5p.org/x-api/h5p-subContentId": "153628d6-e188-4e33-bb64-4c0db0dfa07e"
+                                }
+                            }
+                        },
+                        "result": {
+                            "response": "0",
+                            "completion": true,
+                            "success": true,
+                            "duration": "PT5.02S",
+                            "score": {
+                                "raw": 1,
+                                "min": 0,
+                                "max": 1,
+                                "scaled": 1
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "statement": {
+                "actor": {
+                    "name": "NIMI",
+                    "mbox": "mailto:example@example.com",
+                    "objectType": "Agent"
+                },
+                "verb": {
+                    "id": "http://adlnet.gov/expapi/verbs/answered",
+                    "display": {
+                        "en-US": "answered"
+                    }
+                },
+                "object": {
+                    "id": "https://moodle.edu.ee/mod/hvp/view.php?id=1823585?subContentId=0dd26d8e-42c4-4194-a9ce-7335f5fdf801",
+                    "objectType": "Activity",
+                    "definition": {
+                        "extensions": {
+                            "http://h5p.org/x-api/h5p-local-content-id": 8080,
+                            "http://h5p.org/x-api/h5p-subContentId": "0dd26d8e-42c4-4194-a9ce-7335f5fdf801"
+                        },
+                        "name": {
+                            "en-US": "Lohista+mitoosi+etappi+iseloomustav+pilt+õigesse+kasti."
+                        },
+                        "description": {
+                            "en-US": "Lohista+mitoosi+etappi+iseloomustav+pilt+õigesse+kasti."
+                        },
+                        "type": "http://adlnet.gov/expapi/activities/cmi.interaction",
+                        "interactionType": "matching",
+                        "source": [
+                            {
+                                "id": "0",
+                                "description": {
+                                    "en-US": "1"
+                                }
+                            },
+                            {
+                                "id": "1",
+                                "description": {
+                                    "en-US": "2"
+                                }
+                            },
+                            {
+                                "id": "2",
+                                "description": {
+                                    "en-US": "3"
+                                }
+                            },
+                            {
+                                "id": "3",
+                                "description": {
+                                    "en-US": "4"
+                                }
+                            }
+                        ],
+                        "correctResponsesPattern": [
+                            "0[.]0[,]1[.]1[,]2[.]2[,]3[.]3"
+                        ],
+                        "target": [
+                            {
+                                "id": "0",
+                                "description": {
+                                    "en-US": "profaas\n"
+                                }
+                            },
+                            {
+                                "id": "1",
+                                "description": {
+                                    "en-US": "metafaas\n"
+                                }
+                            },
+                            {
+                                "id": "2",
+                                "description": {
+                                    "en-US": "anafaas\n"
+                                }
+                            },
+                            {
+                                "id": "3",
+                                "description": {
+                                    "en-US": "telofaas\n"
+                                }
+                            }
+                        ]
+                    }
+                },
+                "context": {
+                    "contextActivities": {
+                        "parent": [
+                            {
+                                "id": "https://moodle.edu.ee/mod/hvp/view.php?id=1823585",
+                                "objectType": "Activity"
+                            }
+                        ],
+                        "category": [
+                            {
+                                "id": "http://h5p.org/libraries/H5P.DragQuestion-1.13",
+                                "objectType": "Activity"
+                            }
+                        ]
+                    }
+                },
+                "result": {
+                    "score": {
+                        "min": 0,
+                        "max": 4,
+                        "raw": 4,
+                        "scaled": 1
+                    },
+                    "completion": true,
+                    "success": true,
+                    "duration": "PT676.61S",
+                    "response": "0[.]0[,]1[.]1[,]2[.]2[,]3[.]3"
+                }
+            }
+        },
+        {
+            "statement": {
+                "actor": {
+                    "name": "NIMI",
+                    "mbox": "mailto:example@example.com",
+                    "objectType": "Agent"
+                },
+                "verb": {
+                    "id": "http://adlnet.gov/expapi/verbs/answered",
+                    "display": {
+                        "en-US": "answered"
+                    }
+                },
+                "object": {
+                    "id": "https://moodle.edu.ee/mod/hvp/view.php?id=1823585?subContentId=35257d9a-d364-4cc6-a6fd-bf5ace110276",
+                    "objectType": "Activity",
+                    "definition": {
+                        "extensions": {
+                            "http://h5p.org/x-api/h5p-local-content-id": 8080,
+                            "http://h5p.org/x-api/h5p-subContentId": "35257d9a-d364-4cc6-a6fd-bf5ace110276"
+                        },
+                        "name": {
+                            "en-US": "Mõisted"
+                        },
+                        "interactionType": "fill-in",
+                        "type": "http://adlnet.gov/expapi/activities/cmi.interaction",
+                        "description": {
+                            "en-US": "<p>Lohista+mõisted+õigetesse+kastidesse</p>\n<br/>__________+–+DNA-st+ja+valkudest+koosnev+struktuur,+milles+asuvad+kindlas+järjestuses+paiknevad+geenid<br/>__________+–+üks+kahest+identsest+kromosoomi+osast;+koosneb+ühest+DNA+ahelast<br/>__________+–+rakutuumas+paiknev+DNA+ja+valkude+segu;+kromosoomid+lahtikeerdunud+kujul<br/>__________+–+rakujagunemisel+tekkivad+niitjad+valgud,+mis+kinnituvad+tsentromeeri+külge+ja+osalevad+kromosoomide+täpses+jaotamises+uute+rakkude+vahel<br/>__________+–+kromosoomi+keskosas+asuv+piirkond,+kuhu+kinnituvad+kääviniidid<br/>__________+–+loomaraku+jagunemisel+kääviniitide+moodustumises+osalev+organell,+mis+koosneb+kahest+üksteise+suhtes+risti+olevast+tsentrioolist<br/>__________+–+loomarakus+esineva+tsentrosoomi+osa<br/>__________+–+rakutuuma+piirkonnad,+kus+tehakse+ribosoome"
+                        },
+                        "correctResponsesPattern": [
+                            "kromosoom[,]kromatiid[,]kromatiin[,]kääviniidid[,]tsentromeer[,]tsentrosoom[,]tsentriool[,]tuumake"
+                        ]
+                    }
+                },
+                "context": {
+                    "contextActivities": {
+                        "parent": [
+                            {
+                                "id": "https://moodle.edu.ee/mod/hvp/view.php?id=1823585",
+                                "objectType": "Activity"
+                            }
+                        ],
+                        "category": [
+                            {
+                                "id": "http://h5p.org/libraries/H5P.DragText-1.8",
+                                "objectType": "Activity"
+                            }
+                        ]
+                    }
+                },
+                "result": {
+                    "response": "kromosoom[,]kromatiid[,]kromatiin[,]kääviniidid[,]tsentromeer[,]tsentrosoom[,]tsentriool[,]tuumake",
+                    "score": {
+                        "min": 0,
+                        "raw": 8,
+                        "max": 8,
+                        "scaled": 1
+                    },
+                    "duration": "PT327.65S",
+                    "completion": true
+                }
+            }
+        }
+    ]
+}
