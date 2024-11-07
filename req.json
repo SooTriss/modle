@@ -12,7 +12,7 @@
             }
         },
         "object": {
-            "id": "https://moodle.edu.ee/mod/hvp/view.php?id=1823585",
+            "id": "https://moodle.ut.ee/mod/quiz/view.php?id=1823585",
             "objectType": "Activity",
             "definition": {
                 "extensions": {
@@ -62,7 +62,7 @@
                     }
                 },
                 "object": {
-                    "id": "https://moodle.edu.ee/mod/hvp/view.php?id=1823585?subContentId=db175671-7aac-410c-97eb-edee92bdc865",
+                    "id": "https://moodle.ut.ee/mod/quiz/view.php?id=1823585?subContentId=db175671-7aac-410c-97eb-edee92bdc865",
                     "objectType": "Activity",
                     "definition": {
                         "extensions": {
@@ -136,7 +136,7 @@
                     "contextActivities": {
                         "parent": [
                             {
-                                "id": "https://moodle.edu.ee/mod/hvp/view.php?id=1823585",
+                                "id": "https://moodle.ut.ee/mod/quiz/view.php?id=1823585",
                                 "objectType": "Activity"
                             }
                         ],
@@ -176,7 +176,7 @@
                     }
                 },
                 "object": {
-                    "id": "https://moodle.edu.ee/mod/hvp/view.php?id=1823585?subContentId=47233afc-310d-4642-9458-005b829df5bd",
+                    "id": "https://moodle.ut.ee/mod/quiz/view.php?id=1823585?subContentId=47233afc-310d-4642-9458-005b829df5bd",
                     "objectType": "Activity",
                     "definition": {
                         "extensions": {
@@ -226,7 +226,7 @@
                     "contextActivities": {
                         "parent": [
                             {
-                                "id": "https://moodle.edu.ee/mod/hvp/view.php?id=1823585",
+                                "id": "https://moodle.ut.ee/mod/quiz/view.php?id=1823585",
                                 "objectType": "Activity"
                             }
                         ],
@@ -266,7 +266,7 @@
                     }
                 },
                 "object": {
-                    "id": "https://moodle.edu.ee/mod/hvp/view.php?id=1823585?subContentId=d6dc6504-2ad4-42c6-bc94-6646bd55de24",
+                    "id": "https://moodle.ut.ee/mod/quiz/view.php?id=1823585?subContentId=d6dc6504-2ad4-42c6-bc94-6646bd55de24",
                     "objectType": "Activity",
                     "definition": {
                         "extensions": {
@@ -334,7 +334,7 @@
                     "contextActivities": {
                         "parent": [
                             {
-                                "id": "https://moodle.edu.ee/mod/hvp/view.php?id=1823585",
+                                "id": "https://moodle.ut.ee/mod/quiz/view.php?id=1823585",
                                 "objectType": "Activity"
                             }
                         ],
@@ -374,7 +374,7 @@
                     }
                 },
                 "object": {
-                    "id": "https://moodle.edu.ee/mod/hvp/view.php?id=1823585?subContentId=741624e0-5f33-45f7-ab41-955b4d1c17a2",
+                    "id": "https://moodle.ut.ee/mod/quiz/view.php?id=1823585?subContentId=741624e0-5f33-45f7-ab41-955b4d1c17a2",
                     "objectType": "Activity",
                     "definition": {
                         "extensions": {
@@ -398,7 +398,7 @@
                     "contextActivities": {
                         "parent": [
                             {
-                                "id": "https://moodle.edu.ee/mod/hvp/view.php?id=1823585",
+                                "id": "https://moodle.ut.ee/mod/quiz/view.php?id=1823585",
                                 "objectType": "Activity"
                             }
                         ],
@@ -440,14 +440,14 @@
                     "contextActivities": {
                         "parent": [
                             {
-                                "id": "https://moodle.edu.ee/mod/hvp/view.php?id=1823585",
+                                "id": "https://moodle.ut.ee/mod/quiz/view.php?id=1823585",
                                 "objectType": "Activity"
                             }
                         ]
                     }
                 },
                 "object": {
-                    "id": "https://moodle.edu.ee/mod/hvp/view.php?id=1823585?subContentId=1ed817c4-7835-4c72-aae0-56331ba9e646",
+                    "id": "https://moodle.ut.ee/mod/quiz/view.php?id=1823585?subContentId=1ed817c4-7835-4c72-aae0-56331ba9e646",
                     "objectType": "Activity",
                     "definition": {
                         "interactionType": "compound",
@@ -486,14 +486,14 @@
                             "contextActivities": {
                                 "parent": [
                                     {
-                                        "id": "https://moodle.edu.ee/mod/hvp/view.php?id=1823585?subContentId=1ed817c4-7835-4c72-aae0-56331ba9e646",
+                                        "id": "https://moodle.ut.ee/mod/quiz/view.php?id=1823585?subContentId=1ed817c4-7835-4c72-aae0-56331ba9e646",
                                         "objectType": "Activity"
                                     }
                                 ]
                             }
                         },
                         "object": {
-                            "id": "https://moodle.edu.ee/mod/hvp/view.php?id=1823585?subContentId=e8123bbe-f5f9-487e-a5a9-dd6df0e29cc4",
+                            "id": "https://moodle.ut.ee/mod/quiz/view.php?id=1823585?subContentId=e8123bbe-f5f9-487e-a5a9-dd6df0e29cc4",
                             "objectType": "Activity",
                             "definition": {
                                 "description": {
@@ -566,14 +566,14 @@
                             "contextActivities": {
                                 "parent": [
                                     {
-                                        "id": "https://moodle.edu.ee/mod/hvp/view.php?id=1823585?subContentId=1ed817c4-7835-4c72-aae0-56331ba9e646",
+                                        "id": "https://moodle.ut.ee/mod/quiz/view.php?id=1823585?subContentId=1ed817c4-7835-4c72-aae0-56331ba9e646",
                                         "objectType": "Activity"
                                     }
                                 ]
                             }
                         },
                         "object": {
-                            "id": "https://moodle.edu.ee/mod/hvp/view.php?id=1823585?subContentId=bf386fd7-31a1-487d-bc69-4a2b800c7d26",
+                            "id": "https://moodle.ut.ee/mod/quiz/view.php?id=1823585?subContentId=bf386fd7-31a1-487d-bc69-4a2b800c7d26",
                             "objectType": "Activity",
                             "definition": {
                                 "description": {
@@ -647,14 +647,14 @@
                             "contextActivities": {
                                 "parent": [
                                     {
-                                        "id": "https://moodle.edu.ee/mod/hvp/view.php?id=1823585?subContentId=1ed817c4-7835-4c72-aae0-56331ba9e646",
+                                        "id": "https://moodle.ut.ee/mod/quiz/view.php?id=1823585?subContentId=1ed817c4-7835-4c72-aae0-56331ba9e646",
                                         "objectType": "Activity"
                                     }
                                 ]
                             }
                         },
                         "object": {
-                            "id": "https://moodle.edu.ee/mod/hvp/view.php?id=1823585?subContentId=068f5f9b-c5b5-4ab3-8658-30da04c23a87",
+                            "id": "https://moodle.ut.ee/mod/quiz/view.php?id=1823585?subContentId=068f5f9b-c5b5-4ab3-8658-30da04c23a87",
                             "objectType": "Activity",
                             "definition": {
                                 "description": {
@@ -728,14 +728,14 @@
                             "contextActivities": {
                                 "parent": [
                                     {
-                                        "id": "https://moodle.edu.ee/mod/hvp/view.php?id=1823585?subContentId=1ed817c4-7835-4c72-aae0-56331ba9e646",
+                                        "id": "https://moodle.ut.ee/mod/quiz/view.php?id=1823585?subContentId=1ed817c4-7835-4c72-aae0-56331ba9e646",
                                         "objectType": "Activity"
                                     }
                                 ]
                             }
                         },
                         "object": {
-                            "id": "https://moodle.edu.ee/mod/hvp/view.php?id=1823585?subContentId=122dc9d0-8b3c-4b44-8742-f04b181e01d2",
+                            "id": "https://moodle.ut.ee/mod/quiz/view.php?id=1823585?subContentId=122dc9d0-8b3c-4b44-8742-f04b181e01d2",
                             "objectType": "Activity",
                             "definition": {
                                 "description": {
@@ -809,14 +809,14 @@
                             "contextActivities": {
                                 "parent": [
                                     {
-                                        "id": "https://moodle.edu.ee/mod/hvp/view.php?id=1823585?subContentId=1ed817c4-7835-4c72-aae0-56331ba9e646",
+                                        "id": "https://moodle.ut.ee/mod/quiz/view.php?id=1823585?subContentId=1ed817c4-7835-4c72-aae0-56331ba9e646",
                                         "objectType": "Activity"
                                     }
                                 ]
                             }
                         },
                         "object": {
-                            "id": "https://moodle.edu.ee/mod/hvp/view.php?id=1823585?subContentId=36166c9c-c870-4fb4-a3ee-2d54a2e6ca3f",
+                            "id": "https://moodle.ut.ee/mod/quiz/view.php?id=1823585?subContentId=36166c9c-c870-4fb4-a3ee-2d54a2e6ca3f",
                             "objectType": "Activity",
                             "definition": {
                                 "description": {
@@ -890,14 +890,14 @@
                             "contextActivities": {
                                 "parent": [
                                     {
-                                        "id": "https://moodle.edu.ee/mod/hvp/view.php?id=1823585?subContentId=1ed817c4-7835-4c72-aae0-56331ba9e646",
+                                        "id": "https://moodle.ut.ee/mod/quiz/view.php?id=1823585?subContentId=1ed817c4-7835-4c72-aae0-56331ba9e646",
                                         "objectType": "Activity"
                                     }
                                 ]
                             }
                         },
                         "object": {
-                            "id": "https://moodle.edu.ee/mod/hvp/view.php?id=1823585?subContentId=46d927d0-8bbf-40dd-aeec-92afc364d1c0",
+                            "id": "https://moodle.ut.ee/mod/quiz/view.php?id=1823585?subContentId=46d927d0-8bbf-40dd-aeec-92afc364d1c0",
                             "objectType": "Activity",
                             "definition": {
                                 "description": {
@@ -971,14 +971,14 @@
                             "contextActivities": {
                                 "parent": [
                                     {
-                                        "id": "https://moodle.edu.ee/mod/hvp/view.php?id=1823585?subContentId=1ed817c4-7835-4c72-aae0-56331ba9e646",
+                                        "id": "https://moodle.ut.ee/mod/quiz/view.php?id=1823585?subContentId=1ed817c4-7835-4c72-aae0-56331ba9e646",
                                         "objectType": "Activity"
                                     }
                                 ]
                             }
                         },
                         "object": {
-                            "id": "https://moodle.edu.ee/mod/hvp/view.php?id=1823585?subContentId=30401561-2e5d-46e1-b4a9-a88239398a6d",
+                            "id": "https://moodle.ut.ee/mod/quiz/view.php?id=1823585?subContentId=30401561-2e5d-46e1-b4a9-a88239398a6d",
                             "objectType": "Activity",
                             "definition": {
                                 "description": {
@@ -1052,14 +1052,14 @@
                             "contextActivities": {
                                 "parent": [
                                     {
-                                        "id": "https://moodle.edu.ee/mod/hvp/view.php?id=1823585?subContentId=1ed817c4-7835-4c72-aae0-56331ba9e646",
+                                        "id": "https://moodle.ut.ee/mod/quiz/view.php?id=1823585?subContentId=1ed817c4-7835-4c72-aae0-56331ba9e646",
                                         "objectType": "Activity"
                                     }
                                 ]
                             }
                         },
                         "object": {
-                            "id": "https://moodle.edu.ee/mod/hvp/view.php?id=1823585?subContentId=fe302df4-af95-4d48-a485-6af3cba56dc7",
+                            "id": "https://moodle.ut.ee/mod/quiz/view.php?id=1823585?subContentId=fe302df4-af95-4d48-a485-6af3cba56dc7",
                             "objectType": "Activity",
                             "definition": {
                                 "description": {
@@ -1133,14 +1133,14 @@
                             "contextActivities": {
                                 "parent": [
                                     {
-                                        "id": "https://moodle.edu.ee/mod/hvp/view.php?id=1823585?subContentId=1ed817c4-7835-4c72-aae0-56331ba9e646",
+                                        "id": "https://moodle.ut.ee/mod/quiz/view.php?id=1823585?subContentId=1ed817c4-7835-4c72-aae0-56331ba9e646",
                                         "objectType": "Activity"
                                     }
                                 ]
                             }
                         },
                         "object": {
-                            "id": "https://moodle.edu.ee/mod/hvp/view.php?id=1823585?subContentId=15fe8e4f-729c-44d0-b181-9695abc696a6",
+                            "id": "https://moodle.ut.ee/mod/quiz/view.php?id=1823585?subContentId=15fe8e4f-729c-44d0-b181-9695abc696a6",
                             "objectType": "Activity",
                             "definition": {
                                 "description": {
@@ -1214,14 +1214,14 @@
                             "contextActivities": {
                                 "parent": [
                                     {
-                                        "id": "https://moodle.edu.ee/mod/hvp/view.php?id=1823585?subContentId=1ed817c4-7835-4c72-aae0-56331ba9e646",
+                                        "id": "https://moodle.ut.ee/mod/quiz/view.php?id=1823585?subContentId=1ed817c4-7835-4c72-aae0-56331ba9e646",
                                         "objectType": "Activity"
                                     }
                                 ]
                             }
                         },
                         "object": {
-                            "id": "https://moodle.edu.ee/mod/hvp/view.php?id=1823585?subContentId=f1769610-6873-40ef-a669-b19e563693af",
+                            "id": "https://moodle.ut.ee/mod/quiz/view.php?id=1823585?subContentId=f1769610-6873-40ef-a669-b19e563693af",
                             "objectType": "Activity",
                             "definition": {
                                 "description": {
@@ -1295,14 +1295,14 @@
                             "contextActivities": {
                                 "parent": [
                                     {
-                                        "id": "https://moodle.edu.ee/mod/hvp/view.php?id=1823585?subContentId=1ed817c4-7835-4c72-aae0-56331ba9e646",
+                                        "id": "https://moodle.ut.ee/mod/quiz/view.php?id=1823585?subContentId=1ed817c4-7835-4c72-aae0-56331ba9e646",
                                         "objectType": "Activity"
                                     }
                                 ]
                             }
                         },
                         "object": {
-                            "id": "https://moodle.edu.ee/mod/hvp/view.php?id=1823585?subContentId=1dcb3cb4-93aa-4e28-b0fe-94e44c914cfb",
+                            "id": "https://moodle.ut.ee/mod/quiz/view.php?id=1823585?subContentId=1dcb3cb4-93aa-4e28-b0fe-94e44c914cfb",
                             "objectType": "Activity",
                             "definition": {
                                 "description": {
@@ -1376,14 +1376,14 @@
                             "contextActivities": {
                                 "parent": [
                                     {
-                                        "id": "https://moodle.edu.ee/mod/hvp/view.php?id=1823585?subContentId=1ed817c4-7835-4c72-aae0-56331ba9e646",
+                                        "id": "https://moodle.ut.ee/mod/quiz/view.php?id=1823585?subContentId=1ed817c4-7835-4c72-aae0-56331ba9e646",
                                         "objectType": "Activity"
                                     }
                                 ]
                             }
                         },
                         "object": {
-                            "id": "https://moodle.edu.ee/mod/hvp/view.php?id=1823585?subContentId=ec5c5909-527d-4992-844c-f7581483b4c8",
+                            "id": "https://moodle.ut.ee/mod/quiz/view.php?id=1823585?subContentId=ec5c5909-527d-4992-844c-f7581483b4c8",
                             "objectType": "Activity",
                             "definition": {
                                 "description": {
@@ -1457,14 +1457,14 @@
                             "contextActivities": {
                                 "parent": [
                                     {
-                                        "id": "https://moodle.edu.ee/mod/hvp/view.php?id=1823585?subContentId=1ed817c4-7835-4c72-aae0-56331ba9e646",
+                                        "id": "https://moodle.ut.ee/mod/quiz/view.php?id=1823585?subContentId=1ed817c4-7835-4c72-aae0-56331ba9e646",
                                         "objectType": "Activity"
                                     }
                                 ]
                             }
                         },
                         "object": {
-                            "id": "https://moodle.edu.ee/mod/hvp/view.php?id=1823585?subContentId=153628d6-e188-4e33-bb64-4c0db0dfa07e",
+                            "id": "https://moodle.ut.ee/mod/quiz/view.php?id=1823585?subContentId=153628d6-e188-4e33-bb64-4c0db0dfa07e",
                             "objectType": "Activity",
                             "definition": {
                                 "description": {
@@ -1537,7 +1537,7 @@
                     }
                 },
                 "object": {
-                    "id": "https://moodle.edu.ee/mod/hvp/view.php?id=1823585?subContentId=0dd26d8e-42c4-4194-a9ce-7335f5fdf801",
+                    "id": "https://moodle.ut.ee/mod/quiz/view.php?id=1823585?subContentId=0dd26d8e-42c4-4194-a9ce-7335f5fdf801",
                     "objectType": "Activity",
                     "definition": {
                         "extensions": {
@@ -1613,7 +1613,7 @@
                     "contextActivities": {
                         "parent": [
                             {
-                                "id": "https://moodle.edu.ee/mod/hvp/view.php?id=1823585",
+                                "id": "https://moodle.ut.ee/mod/quiz/view.php?id=1823585",
                                 "objectType": "Activity"
                             }
                         ],
@@ -1653,7 +1653,7 @@
                     }
                 },
                 "object": {
-                    "id": "https://moodle.edu.ee/mod/hvp/view.php?id=1823585?subContentId=35257d9a-d364-4cc6-a6fd-bf5ace110276",
+                    "id": "https://moodle.ut.ee/mod/quiz/view.php?id=1823585?subContentId=35257d9a-d364-4cc6-a6fd-bf5ace110276",
                     "objectType": "Activity",
                     "definition": {
                         "extensions": {
@@ -1677,7 +1677,7 @@
                     "contextActivities": {
                         "parent": [
                             {
-                                "id": "https://moodle.edu.ee/mod/hvp/view.php?id=1823585",
+                                "id": "https://moodle.ut.ee/mod/quiz/view.php?id=1823585",
                                 "objectType": "Activity"
                             }
                         ],
